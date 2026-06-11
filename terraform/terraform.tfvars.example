@@ -1,0 +1,3 @@
+stackit_project_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+bucket_name        = "my-portfolio-website"
+stackit_region     = "eu01"

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Morgan — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <span class="nav__logo">AM</span>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <p class="hero__eyebrow">👋 Hello, I'm</p>
+      <h1 class="hero__name">Alex Morgan</h1>
+      <p class="hero__title">Full-Stack Developer &amp; Cloud Enthusiast</p>
+      <p class="hero__tagline">I build fast, reliable software and love deploying it to the cloud.</p>
+      <div class="hero__cta">
+        <a href="#projects" class="btn btn--primary">View My Work</a>
+        <a href="#contact" class="btn btn--outline">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero__bg"></div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section__title">About Me</h2>
+      <div class="about__grid">
+        <div class="about__text">
+          <p>
+            I'm a full-stack developer with 5+ years of experience building web applications
+            and cloud-native services. I'm passionate about clean architecture, developer
+            experience, and making infrastructure as code a first-class citizen.
+          </p>
+          <p>
+            When I'm not coding, you'll find me hiking in the mountains, contributing to
+            open source, or experimenting with the latest cloud technologies.
+          </p>
+          <ul class="about__facts">
+            <li>📍 Berlin, Germany</li>
+            <li>🎓 B.Sc. Computer Science</li>
+            <li>💼 Available for freelance projects</li>
+          </ul>
+        </div>
+        <div class="about__card">
+          <div class="about__avatar">AM</div>
+          <div class="about__stats">
+            <div class="stat">
+              <span class="stat__number">5+</span>
+              <span class="stat__label">Years Experience</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number">30+</span>
+              <span class="stat__label">Projects Delivered</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number">12</span>
+              <span class="stat__label">Happy Clients</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <h2 class="section__title">Skills &amp; Technologies</h2>
+      <div class="skills__grid">
+
+        <div class="skill-card">
+          <div class="skill-card__icon">🖥️</div>
+          <h3 class="skill-card__title">Frontend</h3>
+          <ul class="skill-card__list">
+            <li>TypeScript / JavaScript</li>
+            <li>React &amp; Next.js</li>
+            <li>HTML5 &amp; CSS3</li>
+            <li>Tailwind CSS</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">⚙️</div>
+          <h3 class="skill-card__title">Backend</h3>
+          <ul class="skill-card__list">
+            <li>Go</li>
+            <li>Node.js</li>
+            <li>REST &amp; GraphQL APIs</li>
+            <li>PostgreSQL &amp; Redis</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">☁️</div>
+          <h3 class="skill-card__title">Cloud &amp; DevOps</h3>
+          <ul class="skill-card__list">
+            <li>STACKIT</li>
+            <li>Terraform &amp; IaC</li>
+            <li>Docker &amp; Kubernetes</li>
+            <li>GitHub Actions</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">🔒</div>
+          <h3 class="skill-card__title">Security &amp; Quality</h3>
+          <ul class="skill-card__list">
+            <li>OWASP Best Practices</li>
+            <li>Unit &amp; Integration Tests</li>
+            <li>Code Reviews</li>
+            <li>CI/CD Pipelines</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section__title">Featured Projects</h2>
+      <div class="projects__grid">
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__emoji">🛒</span>
+            <div class="project-card__tags">
+              <span class="tag">Go</span>
+              <span class="tag">React</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">ShopFlow</h3>
+          <p class="project-card__desc">
+            A high-performance e-commerce platform handling 10k+ concurrent users.
+            Built with a Go microservices backend and a React storefront,
+            deployed on STACKIT Kubernetes Engine.
+          </p>
+          <a href="#" class="project-card__link">View Project →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__emoji">📊</span>
+            <div class="project-card__tags">
+              <span class="tag">TypeScript</span>
+              <span class="tag">Next.js</span>
+              <span class="tag">Redis</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">MetricBoard</h3>
+          <p class="project-card__desc">
+            Real-time analytics dashboard for SaaS products. Features live data
+            streaming via WebSockets, customizable charts, and automated
+            alerting — all backed by a serverless edge deployment.
+          </p>
+          <a href="#" class="project-card__link">View Project →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__emoji">🤖</span>
+            <div class="project-card__tags">
+              <span class="tag">Python</span>
+              <span class="tag">Terraform</span>
+              <span class="tag">STACKIT</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">InfraBot</h3>
+          <p class="project-card__desc">
+            An internal Slack bot that provisions cloud infrastructure on demand
+            using Terraform. Engineers request environments via chat; InfraBot
+            handles the full lifecycle from creation to teardown.
+          </p>
+          <a href="#" class="project-card__link">View Project →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section--alt" id="contact">
+    <div class="container">
+      <h2 class="section__title">Get in Touch</h2>
+      <p class="contact__subtitle">
+        Interested in working together or just want to say hi?
+        I'd love to hear from you.
+      </p>
+      <div class="contact__links">
+        <a href="mailto:alex@example.com" class="contact-link">
+          <span class="contact-link__icon">✉️</span>
+          <span>alex@example.com</span>
+        </a>
+        <a href="https://github.com" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-link__icon">💻</span>
+          <span>github.com/alexmorgan</span>
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-link__icon">🔗</span>
+          <span>linkedin.com/in/alexmorgan</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2024 Alex Morgan · Hosted on <strong>STACKIT Object Storage</strong> · Deployed with Terraform</p>
+    </div>
+  </footer>
+
+</body>
+</html>
